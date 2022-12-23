@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+}
+body{
+    background: linear-gradient(90deg,#2C394B,#082032);
+}
+.menu-ic{
+    display: none;
+}
+.header{
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 8px 10px 0px  rgb(0, 0, 0,0.57);
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(135deg,#2C394B,#071f30);
+    justify-content: space-between;
+}
+header.sticky{
+    background: linear-gradient(135deg,#2C394B,#071f30);
+}
+.header ul{
+    position: relative;
+    display: flex;
+    padding: 1%;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header ul span{
+    position: relative;
+    font-size: 1.5rem;
+    color: #5aff70;
+    
+}
+.header ul li{
+    position: relative;
+    list-style: none;
+}
+.header ul li a{
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header ul li:hover{
+    transform: scale(1.2);
+    background-color: #55ACEE;
+    padding: 0.5%;
+    border-radius: 3rem;
+}
+header.sticky ul {
+    padding: 0%;
+}
+.btnd{
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    padding: 1%;
+    color: #ededed;
+    border-color: #5aff70;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+.btnd:hover{
+    background-color: #55acee86;
+    border-color: black;
+    transition: 0.58s;
+    transform: scale(1.12);
+}
+.social{
+    padding-top: 5%;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #bc2a8d;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-google {
+    background: #db3236;
+    color: white;
+  }
+
+
+
+
+
+
+
+.container-2{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.left-content{
+    padding-left: 5%;
+    width: 100%;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.left-content h3{
+    margin-top: 80px;
+    
+    padding-left: 0%;
+    color: #5aff70;
+    
+
+}
+
+.left-content h1{
+    color: aliceblue;
+    padding: 3%;
+    padding-left: 0%;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 2px;
+}
+.left-content p{
+    
+    padding-left: 0%;
+    color: #ededed;
+}
+.left-content p span{
+    color: #5aff70;
+}
+.right-content div{
+    overflow:hidden;
+    z-index: -1;
+  top: 10%;
+    right: 10%;
+    position: absolute;
+}
+.right-content img{
+    width: 80%;
+    margin-top: 100px;
+    border-radius: 50%;
+    
+}
+.container-3{
+    display: flex;
+    text-align: center;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.left-content1{
+    width: 100%;
+    
+}
+.right-content1{
+    width: 100%;
+    margin-right: 3%;
+}
+.right-content1 p{
+    color: #ededed;
+    letter-spacing: 1px;
+    padding: 1%;
+}
+.btn2{
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    padding: 1%;
+    color: #ededed;
+    background-color: #4db2ffc1;
+    cursor: pointer;
+    
+}
+.container-4{
+    display: flex;
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    display: flex;
+    
+    width: 100%;
+    margin: 5%;
+    justify-content: space-between;
+}
+.skills .card{
+    display: inline;
+    width: 20%;
+    
+    height: 300px;
+    background: linear-gradient(260deg,#34495ed1,#34495ec0);
+    border-radius: 2rem;
+    box-shadow:  9px 0px 15px 0px  rgb(0, 0, 0,0.65),
+                -9px 0px 15px 0px  rgb(0, 0, 0,0.65);
+}
+.skills .card div lottie-player{
+   display: block; 
+   margin-left: auto; 
+   margin-right: auto;
+
+}
+.skills .card:hover{
+    z-index: 1;
+    transform: scale(1.15);
+    transition: 0.5s;
+    background: linear-gradient(260deg,#34495e,#34495e);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:415px){
+    .menu-ic{
+        display: block;
+    }
+
+}
